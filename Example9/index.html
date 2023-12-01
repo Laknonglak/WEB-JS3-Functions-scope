@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bank User Interface</title>
+    <style>
+        /* Basic styling for the bank user interface */
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+        button {
+            padding: 8px 15px;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Bank User Interface</h2>
+        <p>Account Number: <span id="accountNumber"></span></p>
+        <p>First Name: <span id="firstName"></span></p>
+        <p>Last Name: <span id="lastName"></span></p>
+        <p>Account Type: <span id="accountType"></span></p>
+        <p>Balance: <span id="balance">5000</span></p>
+        <input type="number" id="amount" placeholder="Enter amount">
+        <button id="depositBtn">Deposit</button>
+        <button id="withdrawBtn">Withdraw</button>
+        <ul id="transactions"></ul>
+    </div>
+
+    <script src="bankUser.js"></script>
+    <script src="bankUserDOM.js"></script>
+</body>
+</html>
