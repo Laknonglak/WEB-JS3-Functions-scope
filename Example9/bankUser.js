@@ -31,4 +31,4 @@ function BankUser(accountNumber, firstName, lastName, balance, accountType) {
     };
 }
 
-const bankUser = new BankUser('1234567890', 'Alice', 'Smith', 5000, 'Savings');
+const bankUser = new BankUser('1234567890', 'Jack', 'Jones', 5000, 'Savings');

@@ -2,17 +2,17 @@
 // Object literal representing a bank user
 const bankUser = {
     accountNumber: '1234567890',
-    firstName: 'Alice',
-    lastName: 'Smith',
+    firstName: 'Jack',
+    lastName: 'Jones',
     balance: 5000,
     accountType: 'Savings',
     transactions: [],
     deposit: function(amount) {
         this.balance += amount;
-        // console.log(this.balance);
+        console.log(this.balance); //6000
         this.transactions.push(`Deposit: +${amount}`);
-        // console.log(this.transactions);
-        return `Deposited ${amount} into account. New balance: ${this.balance}`; //this. refer to bankUser Object
+        console.log(this.transactions); //+1000
+        return `Deposited ${amount} into account. New balance: ${this.balance}`; //this. refer to bankUser Object   
     },
     withdraw: function(amount) {
         if (this.balance >= amount) {
