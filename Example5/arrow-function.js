@@ -5,7 +5,7 @@ const myInfo = (firstName) =>{
    myInfo('Jill');
 
 //or 
-
+myInfo1('Jack');
 const myInfo1 = firstName => console.log('Hello '+ firstName);
       myInfo1('Jack');
 
