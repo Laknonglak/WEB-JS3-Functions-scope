@@ -84,3 +84,7 @@ console.log(bankUser1.deposit(1000)); // Output: Deposited 1000 into account. Ne
 console.log(bankUser1.withdraw(2000)); // Output: Withdrawn 2000 from account. New balance: 4000
 console.log(bankUser1.getBalance()); // Output: Current balance: 4000
 console.log(bankUser1.getTransactions()); // Output: ['Deposit: +1000', 'Withdrawal: -2000']
+
+
+const bankUser2 = new BankUser('9876543210', 'Lak', 'Smith', 1000000, 'Savings');
+console.log(bankUser2.getBalance());

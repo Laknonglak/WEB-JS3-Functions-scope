@@ -9,21 +9,21 @@
 //----------------------------------Anonymous Function-------------------------//
 // An event listener using an anonymous function
 // document.getElementById('myButton').addEventListener('click', function() {
-//     console.log('Button clicked!' ANONYMOUS FUNCTION);
+//     console.log('Button clicked! ANONYMOUS FUNCTION');
 // });
 
 
 //-----------------------------------Arrow Fuction---------------------------//
 // const handleClick = () => {
-//     console.log('Button clicked!' ARROW FUCNTION);
+//     console.log('Button clicked! ARROW FUCNTION');
 // };
 
 // document.getElementById('myButton').addEventListener('click', handleClick);
 
 //-----------------------------------Anonymous Function----------------------//
-// document.getElementById('myButton').addEventListener('click', () => {
-//     console.log('Button clicked! ARROW ANONYMOUS FUNCTION!');
-// });
+document.getElementById('myButton').addEventListener('click', () => {
+    console.log('Button clicked! ARROW ANONYMOUS FUNCTION!');
+});
 
 //------------------------------------Use Case-----------------------------//
 //Callback Functions:

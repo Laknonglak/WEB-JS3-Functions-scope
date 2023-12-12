@@ -17,7 +17,7 @@ myInfo('Jill');
 
 //----------------------------------hoisting----------------------------------------//
 //hoisting functions
-info1('Peter'); //Jack
+info1('Peter'); //Peter
 
 function info1(firstName){
   console.log('Hello ' +  firstName);
@@ -25,6 +25,7 @@ function info1(firstName){
 
 //can not hoist with expression functions
 myInfo1('Rose'); //Cannot access 'myInfo' before initialization
-var myInfo1 = function(firstname){
+
+let myInfo1 = function(firstname){
   console.log('Hello ' + firstname);
 };

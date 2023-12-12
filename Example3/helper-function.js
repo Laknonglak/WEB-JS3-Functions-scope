@@ -18,15 +18,4 @@
   checkNumbers(num1, num2);
 
 
-  //------------------------------Anonymous Function -------------------------//
-  // An event listener using an anonymous function
-    document.getElementById('myButton').addEventListener('click', function() {
-      console.log('Button clicked!');
-    });
-
-    function handleClick() {
-      console.log('Button clicked!');
-   }
-  
-    document.getElementById('myButton').addEventListener('click', handleClick);
-    
+ 

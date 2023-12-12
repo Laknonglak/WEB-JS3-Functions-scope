@@ -1,34 +1,34 @@
 //------------------------------------Global Scope---------------------------------//
-const globalVariable = "I am global";
+// const globalVariable = "I am global";
 
-function exampleFunction() {
-  // Function Scope
-  const functionVariable = "I am in a function";
-  console.log(globalVariable); // Accessible here
-  console.log(functionVariable);
-}
+// function exampleFunction() {
+//   // Function Scope
+//   const functionVariable = "I am in a function";
+//   console.log(globalVariable); // Accessible here
+//   console.log(functionVariable);
+// }
 
-exampleFunction();
-console.log(globalVariable);
+// exampleFunction();
+// console.log(globalVariable);
 // console.log(functionVariable); // This would result in an error
 
 
-//---------------------------------Block Scope---------------------------------------//
+// //---------------------------------Block Scope---------------------------------------//
 
-if (true) {
-  // Block Scope
-  const blockVariable = "I am in a block";
-  console.log(blockVariable); // Accessible here
-  console.log(globalVariable);
-}
- console.log(globalVariable);
+// if (true) {
+//   // Block Scope
+//   const blockVariable = "I am in a block";
+//   console.log(blockVariable); // Accessible here
+//   console.log(globalVariable);
+// }
+//  console.log(globalVariable);
 // console.log(blockVariable); // This would also result in an error
 
 
 //-----------------------------------Scope------------------------------------------//
 let books = 'all books'
 
-function ReadingList(){
+function ReadingList() {
 
     let myBooks = true;
     let moreBooks = 'React';
@@ -41,6 +41,7 @@ function ReadingList(){
         console.log(secondBook);//CSS
         console.log (thirdBook); //JavaScript
         console.log(favbooks);
+        console.log(moreBooks);
 
     }
     console.log (firstBook); //HTML
